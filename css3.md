@@ -2,6 +2,5 @@
 - flex
 - grid
 - animation
-- transformation
-- transition
+- transform
 - many color added
