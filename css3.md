@@ -11,3 +11,9 @@
 
 #### animation
 - keyframes name | duration | timing-function | delay | iteration-count | direction | fill-mode
+
+#### variable 
+- :root {
+    --property-name: value;
+    --primary-color: steelblue;
+}
