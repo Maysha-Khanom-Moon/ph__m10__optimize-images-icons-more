@@ -3,3 +3,11 @@
 - figma community
 - dribbble
 #### never copied fully
+
+
+### color palatte
+- color Hunt
+- Canva
+
+
+### 
