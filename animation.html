@@ -6,7 +6,15 @@
     <title>Animation</title>
 
     <style>
-        
+        @keyframes ping-pong {
+            from {
+                left: 0;
+            }      
+            to {
+                left: 400px;
+                background-color: red;
+            }
+        }
 
         .stage {
             width: 500px;
@@ -21,6 +29,7 @@
             border-radius: 50%;
             background-color: yellow;
             position: relative;
+            animation: ping-pong 2s ease-in-out 2s 3 alternate;
         }
     </style>
 
