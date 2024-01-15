@@ -8,3 +8,6 @@
 
 #### transition
 - property name | duration | easing function | delay
+
+#### animation
+- keyframes name | duration | timing-function | delay | iteration-count | direction | fill-mode
