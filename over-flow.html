@@ -25,10 +25,21 @@
         #box-3 {
             overflow-y: auto;
         }
+
+        .ellipsis {
+            width: 200px;
+            border: 1px solid steelblue;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
     </style>
 
 </head>
 <body>
+    <header>
+        <p title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore iure modi suscipit cupiditate nam vitae cum. Asperiores quas dolor cum, culpa quae mollitia quos nostrum deleniti saepe quia. Architecto." class="ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore iure modi suscipit cupiditate nam vitae cum. Asperiores quas dolor cum, culpa quae mollitia quos nostrum deleniti saepe quia. Architecto.</p>
+    </header>
     <section>
         <div id="box-1" class="box">
             <h3>My Text Box 1</h3>
